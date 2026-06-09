@@ -16,11 +16,15 @@ A linear regression solver implemented from scratch in NumPy — no machine lear
 
 ## Getting started
 
-1. Fork this repository
-2. Clone your fork: `git clone https://github.com/<your-username>/linear-regression-solver-starter`
+1. **Fork this repository** — click **Fork** at the top of [this page](https://github.com/dutchengineer-org/linear-regression-solver-starter) to create your own copy.
+2. Clone your fork:
+   ```
+   git clone https://github.com/<your-username>/linear-regression-solver-starter
+   cd linear-regression-solver-starter
+   ```
 3. Install dependencies: `uv sync`
-4. Run the tests: `uv run pytest`
+4. Build and run: `uv run pytest && uv run python benchmark.py`
 
 ## Submitting
 
-Push your completed work to your fork. Paste the repository URL into the capstone submission form in your dashboard.
+When your work is ready, paste your repository URL into the submission form on your [capstone page](https://dutchengineer.org/foundations/numerical-computing/capstone-linear-regression-solver/).
